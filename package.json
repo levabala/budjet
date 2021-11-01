@@ -8,6 +8,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "test:typecheck": "tsc --noEmit",
+    "prepare": "husky install",
     "test:lint": "eslint src/ --ext .jsx,.js,.ts,.tsx --color"
   },
   "license": "MIT",
